@@ -2,19 +2,19 @@
 {
     public class ServiceResponse
     {
-        public bool Success { get; set; }
-        public string Message { get; set; }
+        public bool IsSuccess { get; set; }
+        public string ErrorMessage { get; set; }
 
         public ServiceResponse()
         {
-            Success = true;
-            Message = string.Empty;
+            IsSuccess = true;
+            ErrorMessage = string.Empty;
         }
 
         public ServiceResponse(string message)
         {
-            Success = false;
-            Message = message;
+            IsSuccess = false;
+            ErrorMessage = message;
         }
     }
 }

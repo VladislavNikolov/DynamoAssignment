@@ -4,8 +4,16 @@ namespace DynamoAssignment.Services
 {
     public class UploadService : IUploadService
     {
-        private readonly string baseUploadPath =
-            Path.Combine(Directory.GetCurrentDirectory(), Constants.UploadsFolder);
+        private readonly string baseUploadPath;
+
+        public UploadService() {
+            baseUploadPath = Path.Combine(Directory.GetCurrentDirectory(), Constants.UploadsFolder);
+        }
+
+        public UploadService(string baseUploadPath)
+        {
+            this.baseUploadPath = baseUploadPath;
+        }
 
         public async Task UploadFile(string fileContents, string fileName)
         {

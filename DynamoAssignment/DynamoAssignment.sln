@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamoAssignment", "DynamoAssignment.csproj", "{FA18352A-DAD5-45D2-BF9D-6372DC32B5BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamoAssignmentTests", "..\DynamoAssignmentTests\DynamoAssignmentTests.csproj", "{31B8293C-3EF1-46BA-9319-402D0BE892DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FA18352A-DAD5-45D2-BF9D-6372DC32B5BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA18352A-DAD5-45D2-BF9D-6372DC32B5BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA18352A-DAD5-45D2-BF9D-6372DC32B5BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31B8293C-3EF1-46BA-9319-402D0BE892DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B8293C-3EF1-46BA-9319-402D0BE892DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B8293C-3EF1-46BA-9319-402D0BE892DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B8293C-3EF1-46BA-9319-402D0BE892DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

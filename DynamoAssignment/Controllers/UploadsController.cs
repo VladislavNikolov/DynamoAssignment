@@ -41,9 +41,9 @@ namespace DynamoAssignment.Controllers
 
                 var result = _fileManager.HandleFile(fileContent, Path.GetFileNameWithoutExtension(file.FileName));
 
-                if (!result.Result.Success)
+                if (!result.Result.IsSuccess)
                 {
-                    return BadRequest(result.Result.Message);
+                    return BadRequest(result.Result.ErrorMessage);
                 }
 
                 return Ok();
