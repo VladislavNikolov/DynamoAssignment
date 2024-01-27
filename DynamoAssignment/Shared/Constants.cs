@@ -2,7 +2,7 @@
 {
     public static class Constants
     {
-        public static readonly string UploadsFolder = "Uploads*-_`";
+        public static readonly string UploadsFolder = "Uploads";
 
         public static readonly string XmlExtension = ".xml";
         public static readonly string JsonExtension = ".json";
